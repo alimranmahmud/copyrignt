@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>custom property</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        :root {
+            --green-border: 2px solid green;
+            --text-color: rgb(172, 225, 23);
+            --border-color: 2px solid red;
+            --imran-background-color: rgb(192, 0, 0);
+            --imran-: 5px solid rgb(63, 19, 224);
+
+        }
+
+        h1 {
+            color: var(--text-color);
+        }
+
+        p {
+            color: var(--text-color);
+        }
+
+        h2 {
+            border: var(--border-color);
+            color: var(--text-color);
+        }
+
+        h6 {
+            background-color: var(--imran-background-color);
+        }
+
+        .nav,
+        .blogs {
+            float: left;
+        }
+
+        footer {
+            clear: both;
+            border: var(--imran-);
+            color: var(--text-color);
+        }
+
+        .flex {
+            display: flex;
+            width: 50%;
+            margin-left: 400px;
+
+        }
+
+        .color {
+            background-color: rgba(16, 86, 105, 0.441);
+        }
+
+        div img {
+            width: 300px;
+            height: 400px;
+            margin-left: 100px;
+            background-color: brown;
+            border-radius: 40px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+
+
+
+        }
+
+        .edit {
+            padding-left: 5px;
+            background-color: antiquewhite;
+            border-radius: 40px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        #center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>I am exploring Custom propertics</h1>
+        <p>Welcome to my website</p>
+    </header>
+    <main>
+        <h2>my awesome content</h2>
+        <h6>my tiny heading</h6>
+        <section>
+            <aside class="nav">
+                my side navigation
+            </aside>
+            <div class="blogs">
+                <h4>blogs</h4>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p><small>copyright</small></p>
+    </footer>
+    <section class="color">
+        <section class="flex ">
+            <article class="edit">
+                <h1 id="center">al imran</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel itaque quae ullam nemo unde natus magni
+                    ratione, repudiandae sapiente quas soluta laborum! Debitis esse animi iure nesciunt dolorem
+                    perferendis
+                    laboriosam.</p>
+            </article>
+
+
+            <div><img src="LMC_10072022_114032.--Bright_Nature_LMC_by_Riyan-removebg-preview.png" alt="AL IMRAN"></div>
+        </section>
+    </section>
+
+
+</body>
+
+</html>
